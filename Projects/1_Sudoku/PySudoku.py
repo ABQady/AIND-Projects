@@ -44,7 +44,7 @@ def play(values, result, history):
 
         pygame.display.flip()
         pygame.display.update()
-        clock.tick(5)
+        clock.tick(7)
 
         if len(assignments) == 0:
             break
